@@ -1,0 +1,1263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+ color: #4b3028; 
+ font-size: 40px;
+}
+
+/* Start of header Section */
+.sec1{
+  height: 600px;
+  background-image: url("/Images/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+header {
+display: flex;
+justify-content: space-around;
+align-content: space-between;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+/* Start of nav bar*/
+.navBar {
+display: flex;
+width: 60%;
+padding: 60px;
+}
+
+.navBar li {
+list-style-type: none;
+margin-left: 20px;
+}
+.navBar li a {
+text-decoration: none;
+color: black;
+}
+.navBar li a:hover{
+  border-bottom: 2px solid burlywood;   
+}
+.home{
+  border-bottom: 2px solid burlywood;      
+}
+
+.logo {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+margin-top: 30px;
+}
+/* End of nav bar*/
+/* Start of Header icons*/
+.headerIcons{
+
+padding-top: 50px;
+font-size: 30px;
+display: flex;
+justify-content: space-around;
+align-content: space-around;
+width: 190px;
+cursor: pointer;
+color: #372017;
+
+}
+.icon{
+  color: #372017;
+
+}
+.text{
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.text h6{
+font-size: 110px;
+font-family: 'Send Flowers', cursive;
+color: #b59b79;
+margin-top: -70px;
+font-weight: lighter;
+
+}
+.sec1 h1{
+  font-size: 80px;
+}
+.sec1 p{
+  text-align: justify;
+}
+/*
+.imgHeader{
+width: 500px;
+ height: 450px;
+  position: absolute;
+  right: 0;
+   margin-top: 12px;
+   border-top-left-radius: 50%;
+}*/
+.shopNow{
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #372017;
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+
+}
+/* End of Header icons*/
+/* End of header Section */
+/* Start of cards section */
+.cards{
+  display: flex;
+  text-align: center;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  
+}
+.cards i{
+font-size: 40px;
+padding-bottom: 10px;
+}
+.cards p{
+text-align: justify;
+width: 300px;
+padding-top: 10px;
+
+}
+
+/* End of cards section */
+
+/* About Us*/
+.aboutUs {
+height: 500px;
+background-color: #f9f1de;
+width: 100%;
+display: flex;
+}
+.aboutUs img{
+  width: 320px;
+  height: 320px;
+  margin-top: 60px;
+  margin-left: 100px;
+
+}
+.aboutUs .aboutText{
+  background-color: white;
+  width: 320px;
+  height: 320px;
+  text-align: center;
+  position: absolute;
+  top: 1050px;
+  right: 120px;
+}
+.aboutText h1{
+font-size: 34px;
+margin-top: 30px;
+}
+.aboutText p{
+
+text-align: justify;
+
+}
+/* Start ollection section*/
+.collection h1 {
+text-align: center;
+margin-top: 20px;
+margin-bottom:20px ;
+
+}
+.images{
+display: flex;
+justify-content: space-around;
+align-content: space-around;
+}
+.collection .images img{
+width: 600px;
+height: 320px;
+box-shadow: 2px 4px 8px #888888;
+
+}
+.collection .images .otherImg{
+display: block;
+}
+.collection .images .otherImg img{
+width: 400px;
+height: 260px;
+}
+.images img:hover{
+
+transform: scale(1.1);
+}
+/* End ollection section*/
+/* Start happy Customers section*/
+.happyCustomers{
+width: 100%;
+height: 400px;
+background-color: #f9f1de;
+text-align: center;
+margin-top: 20px;
+}
+.happyCustomers h1{
+font-size: 45px;
+padding-top: 20px;
+}
+.happyCustomers img{
+width: 160px;
+height: 150px;
+border-radius: 50%;
+margin-top: 20px;
+
+
+}
+.happyCustomers p{
+width:600px ;
+font-size: 25px;
+text-align: justify;
+margin-left: 400px;
+margin-top: 20px;
+
+}
+/* End happy Customers section*/
+/* Start footer section*/
+footer{
+width: 100%;
+text-align: center;
+margin-top: 20px;
+}
+footer .social{
+font-size: 40px;
+background-color:#b59b79;
+color: white;
+border-radius: 50%;
+width: 55px;
+height: 60px;
+padding-top: 10px;
+margin-left: 20px;
+cursor: pointer;
+}
+footer .social:hover{
+color: #4b3028;
+}
+
+/* End footer section*/
+
+@media screen and (min-width: 1024px) {
+  
+/* Start of header Section */
+.sec1{
+    height: 600px;
+    background-image: url("/Images/b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+header {
+  /*
+  */
+ 
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+
+ /* Start of nav bar*/
+.navBar {
+  display: flex;
+  width: 60%;
+  padding: 60px;
+}
+
+.navBar li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+.navBar li a {
+  text-decoration: none;
+  color: black;
+}
+.navBar li a:hover{
+    border-bottom: 2px solid burlywood;   
+}
+.home{
+    border-bottom: 2px solid burlywood;      
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+ /* End of nav bar*/
+ /* Start of Header icons*/
+.headerIcons {
+  
+  padding-top: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 190px;
+  cursor: pointer;
+  color: #372017;
+}
+.icon{
+  color: #372017;
+
+}
+.text{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.text h6{
+  font-size: 110px;
+  font-family: 'Send Flowers', cursive;
+color: #b59b79;
+margin-top: -70px;
+font-weight: lighter;
+
+}
+.sec1 h1{
+    font-size: 80px;
+}
+.sec1 p{
+    text-align: justify;
+}
+.imgHeader{
+  width: 500px;
+   height: 450px;
+    position: absolute;
+    right: 0;
+     margin-top: 12px;
+     border-top-left-radius: 50%;
+}
+.shopNow{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #372017;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+
+}
+/* End of Header icons*/
+/* End of header Section */
+/* Start of cards section */
+.cards{
+    display: flex;
+    text-align: center;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+.cards i{
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.cards p{
+  text-align: justify;
+  width: 300px;
+  padding-top: 10px;
+
+}
+
+/* End of cards section */
+
+/* About Us*/
+.aboutUs {
+  height: 550px;
+  background-color: #f9f1de;
+  width: 100%;
+  display: flex;
+}
+.aboutUs img{
+    width: 490px;
+    height: 380px;
+    margin-top: 45px;
+    margin-left: 170px;
+
+}
+.aboutUs .aboutText{
+    background-color: white;
+    width: 490px;
+    height: 380px;
+    text-align: center;
+    position: absolute;
+    top: 1050px;
+    right: 240px;
+}
+.aboutText h1{
+  font-size: 34px;
+  margin-top: 30px;
+}
+.aboutText p{
+
+  text-align: justify;
+  width: 420px;
+  font-size: 23px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+/* Start ollection section*/
+.collection h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:20px ;
+
+}
+.images{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 70px;
+
+}
+.collection .images img{
+  width: 680px;
+  height: 520px;
+  box-shadow: 2px 4px 8px #888888;
+
+ 
+}
+.collection .images .otherImg{
+  display: block;
+}
+.collection .images .otherImg img{
+  width: 370px;
+  height: 250px;
+  margin-right: 90px;
+}
+.images img:hover{
+ 
+  transform: scale(1.1);
+}
+/* End ollection section*/
+/* Start happy Customers section*/
+.happyCustomers{
+  width: 100%;
+  height: 400px;
+  background-color: #f9f1de;
+  text-align: center;
+  margin-top: 20px;
+}
+.happyCustomers h1{
+  font-size: 45px;
+  padding-top: 20px;
+}
+.happyCustomers img{
+  width: 160px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+
+
+}
+.happyCustomers p{
+  width:600px ;
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 400px;
+  margin-top: 20px;
+
+}
+/* End happy Customers section*/
+/* Start footer section*/
+footer{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+footer .social{
+  font-size: 40px;
+  background-color:#b59b79;
+  color: white;
+  border-radius: 50%;
+  width: 55px;
+  height: 60px;
+  padding-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+footer .social:hover{
+color: #4b3028;
+}
+
+/* End footer section*/
+}
+
+/*tablet*/
+@media screen and (min-width: 768px)
+and (max-width: 1024px) {
+
+
+  .sec1{
+    height: 550px;
+    background-image: url("/Images/b.jpg");
+    background-repeat: no-repeat;
+    background-size:contain; 
+ 
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+
+ /* Start of nav bar*/
+.navBar {
+  display: flex;
+  width: 60%;
+  padding: 60px;
+}
+
+.navBar li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+.navBar li a {
+  text-decoration: none;
+  color: black;
+}
+.navBar li a:hover{
+    border-bottom: 2px solid burlywood;   
+}
+.home{
+    border-bottom: 2px solid burlywood;      
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+ /* End of nav bar*/
+ /* Start of Header icons*/
+.headerIcons {
+  
+  padding-top: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 190px;
+  cursor: pointer;
+  color: #372017;
+}
+.icon{
+  color: #372017;
+
+}
+.text{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.text h6{
+  font-size: 70px;
+  font-family: 'Send Flowers', cursive;
+color: #b59b79;
+margin-top: -50px;
+font-weight: lighter;
+
+}
+.sec1 h1{
+    font-size: 60px;
+}
+.sec1 p{
+    text-align: justify;
+    font-size: 15px;
+}
+.shopNow{
+    border: none;
+    outline: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #372017;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+/* End of Header icons*/
+/* End of header Section */
+/* Start of cards section */
+.cards{
+    display: flex;
+    text-align: center;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+.cards i{
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.cards p{
+  text-align: justify;
+  width: 200px;
+  padding-top: 10px;
+
+}
+
+/* End of cards section */
+
+/* About Us*/
+.aboutUs {
+  height: 500px;
+  background-color: #f9f1de;
+  width: 100%;
+  display: flex;
+}
+.aboutUs img{
+    width: 440px;
+    height: 290px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.aboutUs .aboutText{
+    background-color: white;
+    width: 440px;
+    height: 290px;
+    text-align: center;
+    position: absolute;
+    top: 1100px;
+    right: 10px;
+}
+.aboutText h1{
+  font-size: 30px;
+  margin-top: 15px;
+}
+.aboutText p{
+  width: 380px;
+  text-align: justify;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+/* Start ollection section*/
+.collection h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:20px ;
+
+}
+.images{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.collection .images img{
+  width: 420px;
+  height: 415px;
+  box-shadow: 2px 4px 8px #888888;
+
+}
+.collection .images .otherImg{
+  display: block;
+}
+.collection .images .otherImg img{
+  width: 250px;
+  height: 195px;
+}
+.images img:hover{
+ 
+  transform: scale(1.1);
+}
+/* End ollection section*/
+/* Start happy Customers section*/
+.happyCustomers{
+  width: 100%;
+  height: 400px;
+  background-color: #f9f1de;
+  text-align: center;
+  margin-top: 20px;
+}
+.happyCustomers h1{
+  font-size: 35px;
+  padding-top: 20px;
+}
+.happyCustomers img{
+  width: 160px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+
+
+}
+.happyCustomers p{
+  width:400px ;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 200px;
+  margin-top: 20px;
+
+}
+/* End happy Customers section*/
+/* Start footer section*/
+footer{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+footer .social{
+  font-size: 30px;
+  background-color:#b59b79;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+footer .social:hover{
+color: #4b3028;
+}
+/* END footer section*/
+
+
+}
+
+@media (max-width:580px){
+ .sec1{
+    height: 450px;
+    background-image: url("/Images/b.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header {
+
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+ /* Start of nav bar*/
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 20px;
+  padding-left: 10px;
+}
+
+.navBar li {
+  list-style-type: none;
+  margin-left: 10px;
+  
+}
+.navBar li a {
+  text-decoration: none;
+  color: black;
+}
+.navBar li a:hover{
+    border-bottom: 2px solid burlywood;   
+}
+.home{
+    border-bottom: 2px solid burlywood;      
+}
+
+
+ /* End of nav bar*/
+ /* Start of Header icons*/
+.headerIcons {
+  
+  padding-top: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 190px;
+  cursor: pointer;
+  color: #372017;
+}
+.icon{
+  color: #372017;
+
+}
+.text{
+    margin-left: 40px;
+    margin-top: 6px;
+}
+.text h6{
+  font-size: 27px;
+  font-family: 'Send Flowers', cursive;
+color: #b59b79;
+margin-top: -15px;
+font-weight: lighter;
+
+}
+.sec1 h1{
+    font-size: 25px;
+}
+.sec1 p{
+    text-align: justify;
+    width: 200px;
+}
+.shopNow{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #372017;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: -50px;
+
+}
+/* End of Header icons*/
+/* End of header Section */
+/* Start of cards section */
+.cards{
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+  
+    
+}
+.cards i{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.cards p{
+  text-align: justify;
+  width: 220px;
+  padding-top: 10px;
+  margin-left: 25%;
+  padding-bottom: 20px;
+ 
+
+}
+
+/* End of cards section */
+
+/* About Us*/
+.aboutUs {
+  height:450px;
+  background-color: #f9f1de;
+  width: 100%;
+  display: flex;
+}
+.aboutUs img{
+    width: 270px;
+    height: 220px;
+    margin-top: 6%;
+    margin-left: 4%;
+
+}
+.aboutUs .aboutText{
+    background-color: white;
+    width: 270px;
+    height: 220px;
+    text-align: center;
+    position: absolute;
+    top: 1400px;
+    right: 10px;
+}
+.aboutText h1{
+  font-size: 26px;
+  margin-top: 15px;
+}
+.aboutText p{
+  width: 260px;
+  text-align: justify;
+  margin-left: 4px;
+  font-size: 14px;
+  margin-top: 10px;
+
+}
+/* Start ollection section*/
+.collection h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:20px ;
+  font-size: 25px;
+
+}
+.images{
+  display: inline-block;
+ margin-left:7% ;
+}
+.collection .images img{
+  width: 350px;
+  height: 215px;
+  
+}
+.collection .images .otherImg{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.collection .images .otherImg img{
+  width: 170px;
+  height: 150px;
+}
+.images img:hover{
+ 
+  transform: scale(1.1);
+}
+/* End ollection section*/
+/* Start happy Customers section*/
+.happyCustomers{
+  width: 100%;
+  height: 400px;
+  background-color: #f9f1de;
+  text-align: center;
+  margin-top: 20px;
+}
+.happyCustomers h1{
+  font-size: 25px;
+  padding-top: 20px;
+}
+.happyCustomers img{
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  margin-top: 20px;
+
+
+}
+.happyCustomers p{
+  width:300px ;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 18%;
+  margin-top: 15px;
+
+}
+/* End happy Customers section*/
+/* Start footer section*/
+footer{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+footer h1{
+  font-size: 25px;
+
+}
+footer .social{
+  font-size: 25px;
+  background-color:#b59b79;
+  color: white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+footer .social:hover{
+color: #4b3028;
+}
+/* END footer section*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:580px) and (max-width: 767px)  {
+  .sec1{
+     height: 450px;
+     background-image: url("/Images/b.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+ 
+    
+ }
+ header {
+  
+   
+  
+   display: flex;
+   justify-content: space-around;
+   align-content: space-between;
+ }
+ .logo {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     margin-top: 30px;
+     margin-left: 10px;
+   }
+ 
+  /* Start of nav bar*/
+ .navBar {
+   display: flex;
+   justify-content: space-between;
+   width: 60%;
+   padding: 40px;
+   padding-left: 10px;
+ }
+ 
+ .navBar li {
+   list-style-type: none;
+   margin-left: 10px;
+   
+ }
+ .navBar li a {
+   text-decoration: none;
+   color: black;
+ }
+ .navBar li a:hover{
+     border-bottom: 2px solid burlywood;   
+ }
+ .home{
+     border-bottom: 2px solid burlywood;      
+ }
+ 
+ 
+  /* End of nav bar*/
+  /* Start of Header icons*/
+ .headerIcons {
+   
+   padding-top: 40px;
+   font-size: 20px;
+   display: flex;
+   justify-content: space-around;
+   align-content: space-around;
+   width: 190px;
+   cursor: pointer;
+   color: #372017;
+ }
+ .icon{
+  color: #372017;
+
+}
+ .text{
+     margin-left: 60px;
+     margin-top: -10px;
+ }
+ .text h6{
+   font-size: 40px;
+   font-family: 'Send Flowers', cursive;
+ color: #b59b79;
+ margin-top: -25px;
+ font-weight: lighter;
+ 
+ }
+ .sec1 h1{
+     font-size: 35px;
+ }
+ .sec1 p{
+     text-align: justify;
+     width: 200px;
+ }
+ .shopNow{
+     border: none;
+     outline: none;
+     width: 100px;
+     height: 40px;
+     border-radius: 50px;
+     background-color: #372017;
+     color: white;
+     font-size: 13px;
+     cursor: pointer;
+     margin-top: -20px;
+ 
+ }
+ /* End of Header icons*/
+ /* End of header Section */
+ /* Start of cards section */
+ .cards{
+     display: flex;
+     text-align: center;
+     margin-bottom: 10px;
+     display: block;
+     
+ }
+ .cards i{
+   font-size: 30px;
+   padding-bottom: 10px;
+ }
+ .cards p{
+   text-align: justify;
+   width: 220px;
+   padding-top: 10px;
+   margin-left: 34%;
+   padding-bottom: 20px;
+  
+ 
+ }
+ 
+ /* End of cards section */
+ 
+ /* About Us*/
+ .aboutUs {
+   height:450px;
+   background-color: #f9f1de;
+   width: 100%;
+   display: flex;
+ }
+ .aboutUs img{
+     width: 300px;
+     height: 220px;
+     margin-top: 6%;
+     margin-left: 10%;
+ 
+ }
+ .aboutUs .aboutText{
+     background-color: white;
+     width: 300px;
+     height: 220px;
+     text-align: center;
+     position: absolute;
+     top: 1380px;
+     right: 40px;
+ }
+ .aboutText h1{
+   font-size: 26px;
+   margin-top: 15px;
+ }
+ .aboutText p{
+   width: 280px;
+   text-align: justify;
+   margin-left: 10px;
+   font-size: 15px;
+   margin-top: 10px;
+ 
+ }
+ /* Start ollection section*/
+ .collection h1 {
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom:20px ;
+   font-size: 25px;
+ 
+ }
+ .images{
+   display: inline-block;
+  margin-left:22% ;
+ }
+ .collection .images img{
+   width: 390px;
+   height: 215px;
+  box-shadow: 2px 4px 8px #888888;
+
+   
+ }
+ .collection .images .otherImg{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15px;
+ }
+ .collection .images .otherImg img{
+   width: 170px;
+   height: 150px;
+ }
+ .images img:hover{
+  
+   transform: scale(1.1);
+ }
+ /* End ollection section*/
+ /* Start happy Customers section*/
+ .happyCustomers{
+   width: 100%;
+   height: 400px;
+   background-color: #f9f1de;
+   text-align: center;
+   margin-top: 20px;
+ }
+ .happyCustomers h1{
+   font-size: 25px;
+   padding-top: 20px;
+ }
+ .happyCustomers img{
+   width: 150px;
+   height: 140px;
+   border-radius: 50%;
+   margin-top: 20px;
+ 
+ 
+ }
+ .happyCustomers p{
+   width:300px ;
+   font-size: 18px;
+   text-align: justify;
+   margin-left: 28%;
+   margin-top: 15px;
+ 
+ }
+ /* End happy Customers section*/
+ /* Start footer section*/
+ footer{
+   width: 100%;
+   text-align: center;
+   margin-top: 20px;
+  
+ }
+ footer h1{
+   font-size: 25px;
+ 
+ }
+ footer .social{
+   font-size: 25px;
+   background-color:#b59b79;
+   color: white;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   padding-top: 10px;
+   margin-left: 20px;
+   cursor: pointer;
+ }
+ footer .social:hover{
+ color: #4b3028;
+ }
+ /* END footer section*/
+ 
+ 
+ }
