@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    color: #4b3028;
+    font-size: 40px;
+  }
+  .left{
+      width: 70%;
+  }
+
+  .left .pro{
+      display: flex;
+      justify-content: space-around;
+  }
+  .left .details{
+      display: flex;
+      justify-content: space-around;
+  }

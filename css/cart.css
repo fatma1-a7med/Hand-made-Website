@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    color: #4b3028;
+    font-size: 40px;
+    text-align: center;
+  }
+/* Start cart section */ 
+.cart{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+/* Start left section */ 
+.left{
+    width: 25%;
+}
+.left img{
+    width: 350px;
+    height: 470px;
+    margin-left: 100px;
+    box-shadow: 3px 4px 6px #888888;
+}
+/* End left section */ 
+/* Start right section */ 
+
+.right{
+    width: 50%;
+    margin-top: 60px;
+
+}
+.right hr{
+    width: 235px;
+    margin-left: 220px;
+    background-color: #4b3028;
+}
+.right p{
+    width: 360px;
+    text-align: justify;
+    margin-left: 150px;
+}
+.right h2{
+    color: #b59b79;
+    margin-left: 150px;
+
+}
+.right .add{
+ border: none;
+ outline: none;
+ width: 150px;
+ height: 45px;
+ border-radius: 20px;
+ background-color: #b59b79;
+ font-size: 22px;
+ margin-left: 150px;
+
+}
+.right .add a{
+    text-decoration: none;
+    color: white;
+}
+/* End right section */ 
+/* Start suggestion section */ 
+.suggestion{
+    width: 100%;
+    background-color: #f9f1de;
+    height: 480px;
+    padding-top: 30px;
+    margin-top: 30px;
+
+}
+.suggestion img {
+    width: 370px;
+    height: 280px;
+    box-shadow: 3px 4px 6px #888888;
+}
+.imgs h1{
+    font-size: 23px;
+}
+
+.suggestion .imgs{
+    width: 88%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-left: 90px;
+}
+/* End suggestion section */ 

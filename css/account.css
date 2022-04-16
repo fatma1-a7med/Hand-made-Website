@@ -13,6 +13,9 @@
       align-content: space-around;
     
   }
+  a{
+      text-decoration: none;
+  }
 /*Start Left Section*/
 
 .left{
@@ -88,16 +91,25 @@
     font-size: 20px;
 }
 .save{
-    color: white;
     background-color: #f5cda2;
 }
-.cancel{
-    color:#f5cda2 ;
+.save a{
+    color: white;
+}
+.cancel {
     background-color:white ;
 }
+.cancel a{
+    color:#f5cda2 ;
+
+}
 .cancel:hover{
-       color: white;
+
     background-color: #f5cda2;
+}
+.cancel a:hover{
+    color: white;
+ 
 }
 .img{
     width: 20%;
